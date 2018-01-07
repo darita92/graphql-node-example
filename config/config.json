@@ -1,0 +1,8 @@
+{
+  "development": {
+    "storage": "./test.sqlite",
+    "host": "127.0.0.1",
+    "seederStorage": "sequelize",
+    "dialect": "sqlite"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "graphql-node-example",
+  "version": "1.0.0",
+  "description": "Simple API using Node as backend and Grapql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "supervisor index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darita92/graphql-node-example.git"
+  },
+  "keywords": [
+    "node",
+    "graphql",
+    "api",
+    "example",
+    "boilerplate",
+    "sqlite"
+  ],
+  "author": "Daniel Arita <danielarita92@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darita92/graphql-node-example/issues"
+  },
+  "homepage": "https://github.com/darita92/graphql-node-example#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "morgan": "^1.9.0",
+    "sequelize": "^4.29.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^3.2.0",
+    "supervisor": "^0.12.0"
+  }
+}
